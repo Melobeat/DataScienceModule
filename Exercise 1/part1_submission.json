@@ -1,0 +1,91 @@
+{
+    "url":{
+        "0":"\/title\/tt0111161\/"
+    },
+    "title":{
+        "0":"The Shawshank Redemption"
+    },
+    "ratingValue":{
+        "0":9.3
+    },
+    "ratingCount":{
+        "0":3100000
+    },
+    "year":{
+        "0":1994
+    },
+    "description":{
+        "0":"A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion."
+    },
+    "budget":{
+        "0":"$25,000,000 (estimated)"
+    },
+    "gross":{
+        "0":29334033
+    },
+    "duration":{
+        "0":142
+    },
+    "genreList":{
+        "0":[
+            "Epic",
+            "Period Drama",
+            "Prison Drama",
+            "Drama"
+        ]
+    },
+    "countryList":{
+        "0":[
+            "United States"
+        ]
+    },
+    "castList":{
+        "0":[
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton",
+            "William Sadler",
+            "Clancy Brown",
+            "Gil Bellows",
+            "Mark Rolston",
+            "James Whitmore",
+            "Jeffrey DeMunn",
+            "Larry Brandenburg",
+            "Neil Giuntoli",
+            "Brian Libby",
+            "David Proval",
+            "Joseph Ragno",
+            "Jude Ciccolella",
+            "Paul McCrane",
+            "Renee Blaine",
+            "Scott Mann"
+        ]
+    },
+    "characterList":{
+        "0":[
+            "Andy Dufresne",
+            "Ellis Boyd 'Red' Redding",
+            "Warden Norton",
+            "Heywood",
+            "Captain Hadley",
+            "Tommy",
+            "Bogs Diamond",
+            "Brooks Hatlen",
+            "1946 D.A.",
+            "Skeet",
+            "Jigger",
+            "Floyd",
+            "Snooze",
+            "Ernie",
+            "Guard Mert",
+            "Guard Trout",
+            "Andy Dufresne's Wife",
+            "Glenn Quentin"
+        ]
+    },
+    "directorList":{
+        "0":[
+            "Frank Darabont"
+        ]
+    }
+}
