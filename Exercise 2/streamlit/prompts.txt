@@ -1,0 +1,19 @@
+1. Gemini Thinking (With csv and 3 example dashboard pictures)
+You are a professional python developer with a background in data science and graphic design. You know the newest techniques and are able to build stunning things with streamlit.
+
+Your task is to develop a streamlit based dashboard to assist law enforcement agencies. The dashboard should show insights from crime data given via a csv file. The interface should be visually pleasing and intuitive. I attached some examples how the dashboard could be designed.
+
+- There should be a button/field to upload the data via file chooser or drag and drop.
+- There should be filters that make sense like date, district etc
+- There should be at least three maybe more aggregate metrics that you think are important
+- There should be at least three plots maybe more that reveal patterns and/or give insights about important processes
+
+2. Gemini Thinking
+Please dont show an error message when there is no csv in the same folder. Also add some more metrics and plots and try to make more amazing looking.
+
+3. Gemini Thinking
+Now the app is very slow, optimize this. Also add descriptions what is shown.
+
+4. ChatGPT
+{CODE}
+This code shows the error TypeError: 'Categorical' with dtype category does not support reduction 'sum', fix it and give me the fixed code.
