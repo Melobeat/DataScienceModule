@@ -1,0 +1,233 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 124188 entries, 0 to 124187
+Data columns (total 20 columns):
+ #   Column         Non-Null Count   Dtype         
+---  ------         --------------   -----         
+ 0   Date           124188 non-null  datetime64[ns]
+ 1   Location       124188 non-null  string        
+ 2   MinTemp        124188 non-null  float64       
+ 3   MaxTemp        124188 non-null  float64       
+ 4   Rainfall       124188 non-null  float64       
+ 5   WindGustDir    124188 non-null  string        
+ 6   WindGustSpeed  124188 non-null  float64       
+ 7   WindDir9am     124188 non-null  string        
+ 8   WindDir3pm     124188 non-null  string        
+ 9   WindSpeed9am   124188 non-null  float64       
+ 10  WindSpeed3pm   124188 non-null  float64       
+ 11  Humidity9am    124188 non-null  float64       
+ 12  Humidity3pm    124188 non-null  float64       
+ 13  Pressure9am    124188 non-null  float64       
+ 14  Pressure3pm    124188 non-null  float64       
+ 15  Cloud9am       124188 non-null  float64       
+ 16  Temp9am        124188 non-null  float64       
+ 17  Temp3pm        124188 non-null  float64       
+ 18  RainToday      124188 non-null  string        
+ 19  RainTomorrow   124188 non-null  string        
+dtypes: datetime64[ns](1), float64(13), string(6)
+memory usage: 18.9 MB
+
+Date: 0.00%
+Location: 0.00%
+MinTemp: 0.00%
+MaxTemp: 0.00%
+Rainfall: 0.00%
+WindGustDir: 0.00%
+WindGustSpeed: 0.00%
+WindDir9am: 0.00%
+WindDir3pm: 0.00%
+WindSpeed9am: 0.00%
+WindSpeed3pm: 0.00%
+Humidity9am: 0.00%
+Humidity3pm: 0.00%
+Pressure9am: 0.00%
+Pressure3pm: 0.00%
+Cloud9am: 0.00%
+Temp9am: 0.00%
+Temp3pm: 0.00%
+RainToday: 0.00%
+RainTomorrow: 0.00%
+Date: datetime64[ns]
+Location: string
+MinTemp: float64
+MaxTemp: float64
+Rainfall: float64
+WindGustDir: string
+WindGustSpeed: float64
+WindDir9am: string
+WindDir3pm: string
+WindSpeed9am: float64
+WindSpeed3pm: float64
+Humidity9am: float64
+Humidity3pm: float64
+Pressure9am: float64
+Pressure3pm: float64
+Cloud9am: float64
+Temp9am: float64
+Temp3pm: float64
+RainToday: string
+RainTomorrow: string
+Date: 3415
+Location: 49
+MinTemp: 387
+MaxTemp: 492
+Rainfall: 41
+WindGustDir: 16
+WindGustSpeed: 48
+WindDir9am: 16
+WindDir3pm: 16
+WindSpeed9am: 31
+WindSpeed3pm: 33
+Humidity9am: 102
+Humidity3pm: 102
+Pressure9am: 496
+Pressure3pm: 502
+Cloud9am: 11
+Temp9am: 435
+Temp3pm: 490
+RainToday: 2
+RainTomorrow: 2
+
+    Dataset Name: weatherAUS.csv
+    ----------------------------
+    Shape: 124188 rows x 20 columns
+
+    Column Data Types:
+    Date: datetime64[ns]
+Location: string
+MinTemp: float64
+MaxTemp: float64
+Rainfall: float64
+WindGustDir: string
+WindGustSpeed: float64
+WindDir9am: string
+WindDir3pm: string
+WindSpeed9am: float64
+WindSpeed3pm: float64
+Humidity9am: float64
+Humidity3pm: float64
+Pressure9am: float64
+Pressure3pm: float64
+Cloud9am: float64
+Temp9am: float64
+Temp3pm: float64
+RainToday: string
+RainTomorrow: string
+
+    Missing Value Percentage:
+    Date: 0.00%
+Location: 0.00%
+MinTemp: 0.00%
+MaxTemp: 0.00%
+Rainfall: 0.00%
+WindGustDir: 0.00%
+WindGustSpeed: 0.00%
+WindDir9am: 0.00%
+WindDir3pm: 0.00%
+WindSpeed9am: 0.00%
+WindSpeed3pm: 0.00%
+Humidity9am: 0.00%
+Humidity3pm: 0.00%
+Pressure9am: 0.00%
+Pressure3pm: 0.00%
+Cloud9am: 0.00%
+Temp9am: 0.00%
+Temp3pm: 0.00%
+RainToday: 0.00%
+RainTomorrow: 0.00%
+
+    Unique Value Counts:
+    Date: 3415
+Location: 49
+MinTemp: 387
+MaxTemp: 492
+Rainfall: 41
+WindGustDir: 16
+WindGustSpeed: 48
+WindDir9am: 16
+WindDir3pm: 16
+WindSpeed9am: 31
+WindSpeed3pm: 33
+Humidity9am: 102
+Humidity3pm: 102
+Pressure9am: 496
+Pressure3pm: 502
+Cloud9am: 11
+Temp9am: 435
+Temp3pm: 490
+RainToday: 2
+RainTomorrow: 2
+
+    Data (first 30 rows):
+             Date  Location  MinTemp  MaxTemp  Rainfall WindGustDir  WindGustSpeed WindDir9am WindDir3pm  WindSpeed9am  WindSpeed3pm  Humidity9am  Humidity3pm  Pressure9am  Pressure3pm  Cloud9am  Temp9am  Temp3pm RainToday RainTomorrow
+0  2008-07-02  Adelaide     12.7     15.8  0.800000          SW           35.0        SSW         SW     13.000000          15.0         75.0         52.0       1022.4       1022.6  4.447461     13.7     15.5        No           No
+1  2008-07-03  Adelaide      6.2     15.1  0.000000           W           20.0        NNE         SW      2.000000          11.0         81.0         56.0       1027.8       1026.5  4.447461      9.3     13.9        No           No
+2  2008-07-04  Adelaide      5.3     15.9  0.000000         NNE           30.0        NNE         NE      6.000000          13.0         71.0         46.0       1028.7       1025.6  4.447461     10.2     15.3        No           No
+3  2008-07-05  Adelaide      9.8     15.4  0.000000           N           30.0        NNE         NE      9.000000           9.0         56.0         67.0       1023.6       1020.2  4.447461     11.3     13.8        No           No
+4  2008-07-06  Adelaide     11.3     15.7  2.360918         NNW           52.0        NNE        NNW     15.000000          22.0         62.0         62.0       1019.5       1016.2  4.447461     13.0     14.4        No          Yes
+5  2008-07-09  Adelaide      8.4     14.3  1.800000          NW           41.0          N         NW      9.000000          19.0         90.0         64.0       1025.8       1022.7  4.447461     10.8     13.5       Yes          Yes
+6  2008-07-11  Adelaide      8.2     14.0  0.200000          SW           28.0        ENE        NNW      9.000000          13.0         70.0         43.0       1023.8       1021.2  4.447461     10.0     13.5        No           No
+7  2008-07-12  Adelaide      8.1     15.8  2.360918           N           48.0         NE          N     24.000000          22.0         65.0         42.0       1014.0       1009.8  4.447461      9.5     15.6        No           No
+8  2008-07-13  Adelaide      9.4     16.8  2.360918         NNW           54.0          N        NNW     17.000000          28.0         67.0         47.0       1011.2       1009.5  4.447461     11.7     16.5        No          Yes
+9  2008-07-14  Adelaide     10.0     15.4  3.800000           N           48.0          W          W     15.000000          19.0         85.0         72.0       1014.0       1015.4  4.447461     13.2     15.2       Yes          Yes
+10 2008-07-15  Adelaide     11.1     14.7  4.000000         WSW           43.0          W        WSW     17.000000          24.0         91.0         72.0       1020.4       1020.1  4.447461     12.0     13.0       Yes           No
+11 2008-07-16  Adelaide      6.3     14.1  0.200000         NNW           39.0        NNE          N      7.000000          19.0         74.0         52.0       1019.9       1015.3  4.447461     10.0     13.9        No           No
+12 2008-07-17  Adelaide      9.8     14.7  0.200000          NW           44.0          N         NW     17.000000          22.0         58.0         61.0       1009.8       1007.4  4.447461     10.5     14.7        No          Yes
+13 2008-07-18  Adelaide      7.4     15.3  1.400000         WNW           39.0         NE         NW      9.000000          19.0         86.0         58.0       1014.3       1012.4  4.447461      9.3     13.7       Yes           No
+14 2008-07-19  Adelaide      9.3     18.1  2.360918         NNW           52.0          N        ENE     19.000000          11.0         44.0         47.0       1004.7        997.9  4.447461     14.2     17.6        No           No
+15 2008-07-22  Adelaide      6.0     13.8  0.000000          SW           20.0          N        SSW     14.043426          13.0         70.0         61.0       1032.8       1031.1  4.447461      9.7     11.8        No           No
+16 2008-07-23  Adelaide      5.4     14.2  0.000000         ENE           19.0        ESE        NNW      7.000000           9.0         49.0         36.0       1033.9       1029.8  4.447461     10.7     13.7        No           No
+17 2008-07-24  Adelaide      2.6     14.9  0.000000         NNW           28.0          N        NNW      9.000000          13.0         58.0         38.0       1027.5       1023.4  4.447461      8.8     14.5        No           No
+18 2008-07-25  Adelaide      3.1     16.4  0.000000           N           30.0        NNE        NNW      9.000000          15.0         52.0         33.0       1022.1       1018.8  4.447461      9.6     16.1        No           No
+19 2008-07-26  Adelaide      7.1     13.8  2.360918          SW           35.0          N        WSW      7.000000          20.0         90.0         57.0       1019.1       1017.3  4.447461      8.8     12.6        No          Yes
+20 2008-07-27  Adelaide      2.8     11.8  1.600000         WSW           37.0         NE         SW      7.000000          15.0         85.0         58.0       1018.1       1016.2  4.447461      6.9     11.1       Yes           No
+21 2008-07-28  Adelaide      0.7     14.0  0.000000           W           22.0          N          W      7.000000          13.0         82.0         61.0       1024.1       1022.4  4.447461      6.4     12.7        No           No
+22 2008-07-29  Adelaide      4.9     13.0  0.000000         NNW           56.0         NE        NNE     17.000000          19.0         51.0         45.0       1017.9       1010.3  4.447461     10.5     12.5        No          Yes
+23 2008-07-30  Adelaide      8.5     16.1  3.400000         WNW           28.0         NE          W     11.000000           9.0         89.0         44.0       1013.7       1011.7  4.447461     11.5     15.7       Yes           No
+24 2008-07-31  Adelaide      7.6     19.3  0.800000           W           69.0        NNE         NW     17.000000          20.0         56.0         52.0       1006.8       1005.2  4.447461     14.4     18.1        No          Yes
+25 2008-08-01  Adelaide     10.6     13.8  1.800000          SW           74.0          W        WSW     20.000000          26.0         58.0         57.0       1010.9       1014.6  4.447461     12.2     13.5       Yes           No
+26 2008-08-02  Adelaide      7.6     14.3  2.360918          NW           31.0        WNW         SE     11.000000           0.0         95.0         86.0       1021.4       1019.8  4.447461     10.9     11.9        No           No
+27 2008-08-03  Adelaide      7.2     18.1  2.360918         NNW           39.0        NNE        NNW     15.000000          19.0         54.0         37.0       1017.3       1012.4  4.447461     11.8     17.8        No          Yes
+28 2008-08-06  Adelaide      7.4     11.9  1.200000         WSW           48.0          N          N     17.000000          13.0         90.0         92.0       1021.3       1016.8  4.447461     10.0      9.5       Yes          Yes
+29 2008-08-08  Adelaide      8.2     14.4  0.800000         WSW           41.0        WNW        WSW     20.000000          20.0         91.0         47.0       1022.5       1022.6  4.447461     10.6     13.7        No           No
+
+    Data Description:
+                                    Date        MinTemp        MaxTemp       Rainfall  WindGustSpeed   WindSpeed9am   WindSpeed3pm    Humidity9am    Humidity3pm    Pressure9am    Pressure3pm       Cloud9am        Temp9am        Temp3pm
+count                         124188  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000  124188.000000
+mean   2013-04-04 17:01:42.618610432      11.957539      23.680305       0.365907      39.043945      13.643371      18.380944      66.840871      48.866271    1018.223346    1015.648586       4.259805      17.065659      22.152349
+min              2007-11-01 00:00:00      -8.500000      -3.100000       0.000000       6.000000       0.000000       0.000000       0.000000       0.000000     990.200000     986.900000       0.000000      -5.600000      -3.900000
+25%              2011-01-16 00:00:00       7.400000      18.400000       0.000000      31.000000       7.000000      13.000000      55.000000      35.000000    1014.200000    1011.500000       3.000000      12.400000      17.200000
+50%              2013-06-07 00:00:00      11.900000      23.221348       0.000000      39.000000      13.000000      18.662657      68.000000      50.000000    1017.649940    1015.255889       4.447461      16.900000      21.683390
+75%              2015-06-06 00:00:00      16.500000      28.600000       0.200000      46.000000      19.000000      24.000000      80.000000      62.000000    1022.300000    1019.700000       6.000000      21.600000      26.800000
+max              2017-06-25 00:00:00      33.900000      48.100000       4.000000      91.000000      54.000000      57.000000     100.000000     100.000000    1041.000000    1039.600000       9.000000      40.200000      46.700000
+std                              NaN       6.365209       7.015038       0.826482      12.315228       8.553971       8.482697      18.764004      19.690012       6.464613       6.488981       2.255536       6.481017       6.824611
+
+    Data Info:
+    <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 124188 entries, 0 to 124187
+Data columns (total 20 columns):
+ #   Column         Non-Null Count   Dtype         
+---  ------         --------------   -----         
+ 0   Date           124188 non-null  datetime64[ns]
+ 1   Location       124188 non-null  string        
+ 2   MinTemp        124188 non-null  float64       
+ 3   MaxTemp        124188 non-null  float64       
+ 4   Rainfall       124188 non-null  float64       
+ 5   WindGustDir    124188 non-null  string        
+ 6   WindGustSpeed  124188 non-null  float64       
+ 7   WindDir9am     124188 non-null  string        
+ 8   WindDir3pm     124188 non-null  string        
+ 9   WindSpeed9am   124188 non-null  float64       
+ 10  WindSpeed3pm   124188 non-null  float64       
+ 11  Humidity9am    124188 non-null  float64       
+ 12  Humidity3pm    124188 non-null  float64       
+ 13  Pressure9am    124188 non-null  float64       
+ 14  Pressure3pm    124188 non-null  float64       
+ 15  Cloud9am       124188 non-null  float64       
+ 16  Temp9am        124188 non-null  float64       
+ 17  Temp3pm        124188 non-null  float64       
+ 18  RainToday      124188 non-null  string        
+ 19  RainTomorrow   124188 non-null  string        
+dtypes: datetime64[ns](1), float64(13), string(6)
+memory usage: 18.9 MB
+
+    
